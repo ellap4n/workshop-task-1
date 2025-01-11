@@ -9,9 +9,6 @@ function setup() {
   lineDrawing(30, 270, a, color(82, 255, 252));
 }
 
-function draw() {
-}
-
 function lineDrawing(startX, startY, iterations, colour) {
   stroke(colour);
   let a = random(0,width);
@@ -26,4 +23,7 @@ function lineDrawing(startX, startY, iterations, colour) {
     b = random(0,height);
 
   }
+}
+
+function draw() {
 }
