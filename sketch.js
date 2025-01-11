@@ -1,10 +1,12 @@
 
+
 let n = 0;
+var a = prompt("enter iteration number");
 
 function setup() {
   createCanvas(400, 400);
   background(4, 6, 51);
-  lineDrawing(30, 270, 500, color(82, 255, 252));
+  lineDrawing(30, 270, a, color(82, 255, 252));
 }
 
 function draw() {
